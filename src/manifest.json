@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Random",
+      "identifier": "blobmaker.random",
+      "script": "./random.js"
+    },
+    {
+      "name": "Generate",
+      "identifier": "blobmaker.generate",
+      "script": "./generate.js"
+    }
+  ],
+  "menu": {
+    "title": "BlobMaker",
+    "items": [
+      "blobmaker.random",
+      "blobmaker.generate"
+    ]
+  }
+}
